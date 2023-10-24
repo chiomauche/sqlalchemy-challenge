@@ -1,27 +1,22 @@
-sqlalchemy-challenge
+# Climate Analysis
 
 
-I decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with my trip planning, I decided to do a climate analysis about the area. The following sections outline the steps that I needed to take to accomplish this task.
+* I decided to treat myself to a long holiday vacation in Honolulu, Hawaii. To help with my trip planning, I decided to do a climate analysis about the area. The following sections outline the steps that I needed to take to accomplish this task.
 
-Part 1: Analyze and Explore the Climate Data
+# Part 1: Analyze and Explore the Climate Data
+* I used Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, I used SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-  In this section, I used Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, I used SQLAlchemy ORM queries, Pandas, and Matplotlib.
+# For Precipitation Analysis:
+* I found the most recent date in the dataset.
+* Using that date, I got the previous 12 months of precipitation data by querying the previous 12 months of data.
+* I selected only the "date" and "prcp" values.
+* I loaded the query results into a Pandas DataFrame. Explicitly set the column names.
+* I sorted the DataFrame values by "date".
+* I plotted the results by using the DataFrame plot method, as the following image shows in the climate starter ipynb 
 
-For Precipitation Analysis:
+![Alt text](<Screenshot 2023-10-24 053445-1.png>)
 
-  I found the most recent date in the dataset.
-
-  Using that date, got the previous 12 months of precipitation data by querying the previous 12 months of data.
-
-  Selected only the "date" and "prcp" values.
-
-  Loaded the query results into a Pandas DataFrame. Explicitly set the column names.
-
-  Sorted the DataFrame values by "date".
-
-  Plotted the results by using the DataFrame plot method, as the following image shows in the climate starter ipynb 
-
-  Used Pandas to print the summary statistics for the precipitation data.
+* Used Pandas to print the summary statistics for the precipitation data.
 
 
 For station Analysis:
