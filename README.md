@@ -18,8 +18,10 @@
 
 * Used Pandas to print the summary statistics for the precipitation data.
 
+![Alt text](image.png)
 
-For station Analysis:
+
+# For station Analysis:
   I designed a query to calculate the total number of stations in the dataset.
 
   Designed a query to find the most-active stations (that is, the stations that have the most rows). 
