@@ -62,7 +62,7 @@ I designed a Flask API based on the queries that you just developed. To do so, u
   * Queried the dates and temperature observations of the most-active station for the previous year of data.
   * Returned a JSON list of temperature observations for the previous year.
 
-  
+  ![Alt text](<Screenshot 2023-10-25 023307-1.png>)
 
 * 5. /api/v1.0/<start> and /api/v1.0/<start>/<end>
   * Returned a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
