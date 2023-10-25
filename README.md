@@ -68,7 +68,7 @@ I designed a Flask API based on the queries that you just developed. To do so, u
   * Returned a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
   * For a specified start, I calculated TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
 
-  
+  ![Alt text](<Screenshot 2023-10-25 023539-1.png>)
 
   * For a specified start date and end date, I calculated TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 
