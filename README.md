@@ -72,5 +72,6 @@ I designed a Flask API based on the queries that you just developed. To do so, u
 
   * For a specified start date and end date, I calculated TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 
+![Alt text](<Screenshot 2023-10-25 023716-1.png>)
   
 
